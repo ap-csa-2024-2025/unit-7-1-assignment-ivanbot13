@@ -8,9 +8,11 @@ public class Main
     Scanner sc = new Scanner(System.in);
     String input = "";
 
+    ArrayList<String> list = new ArrayList<String>();
     while (!input.equals("STOP"))
     {
-      System.out.println("infinite loop! replace with your code");
+      list.add(input);
     }
+    System.out.println(list);
   }
 }
